@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C/C++ build artifacts & virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Local credentials & Secret Keys
+data/groq_config.json
+.groq_key
+.env
+.env.*
+
+# Large Video & Audio Media Files (exceeds GitHub limits)
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.flac
+
+# Runtime Caches & Dynamic Uploads
+data/uploads/
+data/cache/
+data/annotations/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

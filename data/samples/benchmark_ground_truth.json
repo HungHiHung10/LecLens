@@ -1,0 +1,212 @@
+[
+  {
+    "id": "q1",
+    "query": "Overfitting là gì, định nghĩa hiện tượng quá khớp?",
+    "gt_start": 9.0,
+    "gt_end": 29.5,
+    "topic": "Overfitting Definition"
+  },
+  {
+    "id": "q2",
+    "query": "Tại sao mô hình lại bị overfitting?",
+    "gt_start": 9.0,
+    "gt_end": 42.0,
+    "topic": "Overfitting Cause"
+  },
+  {
+    "id": "q3",
+    "query": "Độ chính xác tập train cao nhưng test bị thấp",
+    "gt_start": 19.0,
+    "gt_end": 29.5,
+    "topic": "Train vs Test Accuracy"
+  },
+  {
+    "id": "q4",
+    "query": "Số lượng tham số quá lớn so với dữ liệu gây quá khớp",
+    "gt_start": 30.0,
+    "gt_end": 42.0,
+    "topic": "Model Parameters vs Data"
+  },
+  {
+    "id": "q5",
+    "query": "Underfitting là gì và khi nào xảy ra?",
+    "gt_start": 43.0,
+    "gt_end": 55.0,
+    "topic": "Underfitting"
+  },
+  {
+    "id": "q6",
+    "query": "Sự đánh đổi giữa Bias và Variance",
+    "gt_start": 56.0,
+    "gt_end": 70.0,
+    "topic": "Bias Variance Tradeoff"
+  },
+  {
+    "id": "q7",
+    "query": "Mô hình High Variance dẫn đến hiện tượng gì?",
+    "gt_start": 56.0,
+    "gt_end": 70.0,
+    "topic": "High Variance"
+  },
+  {
+    "id": "q8",
+    "query": "Kỹ thuật Regularization điều chuẩn trong học máy",
+    "gt_start": 71.0,
+    "gt_end": 98.0,
+    "topic": "Regularization Intro"
+  },
+  {
+    "id": "q9",
+    "query": "L1 Regularization Lasso hoạt động thế nào?",
+    "gt_start": 86.0,
+    "gt_end": 112.0,
+    "topic": "L1 Regularization"
+  },
+  {
+    "id": "q10",
+    "query": "Phương pháp nào đưa trọng số về 0 để tạo mô hình thưa?",
+    "gt_start": 99.0,
+    "gt_end": 112.0,
+    "topic": "Feature Selection / Sparsity"
+  },
+  {
+    "id": "q11",
+    "query": "L2 Regularization Weight Decay phạt trọng số như thế nào?",
+    "gt_start": 113.0,
+    "gt_end": 127.0,
+    "topic": "L2 Regularization"
+  },
+  {
+    "id": "q12",
+    "query": "So sánh L1 và L2 Regularization",
+    "gt_start": 86.0,
+    "gt_end": 127.0,
+    "topic": "L1 vs L2 Comparison"
+  },
+  {
+    "id": "q13",
+    "query": "Kỹ thuật Dropout trong mạng nơ-ron sâu",
+    "gt_start": 128.0,
+    "gt_end": 157.0,
+    "topic": "Dropout Overview"
+  },
+  {
+    "id": "q14",
+    "query": "Ai là người đề xuất kỹ thuật Dropout năm nào?",
+    "gt_start": 128.0,
+    "gt_end": 142.0,
+    "topic": "Dropout History"
+  },
+  {
+    "id": "q15",
+    "query": "Xác suất ngẫu nhiên tắt nơ-ron p trong Dropout",
+    "gt_start": 143.0,
+    "gt_end": 157.0,
+    "topic": "Dropout Mechanism"
+  },
+  {
+    "id": "q16",
+    "query": "Hiện tượng co-adaptation học phụ thuộc lẫn nhau",
+    "gt_start": 158.0,
+    "gt_end": 171.0,
+    "topic": "Co-adaptation Prevention"
+  },
+  {
+    "id": "q17",
+    "query": "Khi test hoặc inference thì Dropout hoạt động ra sao?",
+    "gt_start": 172.0,
+    "gt_end": 185.0,
+    "topic": "Dropout at Test Time"
+  },
+  {
+    "id": "q18",
+    "query": "Kỹ thuật Early Stopping dừng huấn luyện sớm",
+    "gt_start": 186.0,
+    "gt_end": 214.0,
+    "topic": "Early Stopping"
+  },
+  {
+    "id": "q19",
+    "query": "Theo dõi validation loss và tham số patience",
+    "gt_start": 201.0,
+    "gt_end": 214.0,
+    "topic": "Early Stopping Patience"
+  },
+  {
+    "id": "q20",
+    "query": "Tăng cường dữ liệu Data Augmentation để giảm overfitting",
+    "gt_start": 215.0,
+    "gt_end": 229.0,
+    "topic": "Data Augmentation"
+  },
+  {
+    "id": "q21",
+    "query": "Các phép biến đổi ảnh như xoay ảnh lật ảnh thay đổi độ sáng",
+    "gt_start": 215.0,
+    "gt_end": 229.0,
+    "topic": "Image Transformations"
+  },
+  {
+    "id": "q22",
+    "query": "Hàm mất mát Loss Function là gì và dùng để làm gì?",
+    "gt_start": 230.0,
+    "gt_end": 244.0,
+    "topic": "Loss Function Intro"
+  },
+  {
+    "id": "q23",
+    "query": "Hàm mất mát MSE và MAE cho bài toán hồi quy",
+    "gt_start": 245.0,
+    "gt_end": 258.0,
+    "topic": "Regression Loss"
+  },
+  {
+    "id": "q24",
+    "query": "Hàm Cross-Entropy Loss và hàm kích hoạt Softmax",
+    "gt_start": 259.0,
+    "gt_end": 273.0,
+    "topic": "Classification Loss"
+  },
+  {
+    "id": "q25",
+    "query": "Thuật toán hạ độ dốc Gradient Descent cập nhật trọng số",
+    "gt_start": 274.0,
+    "gt_end": 288.0,
+    "topic": "Gradient Descent"
+  },
+  {
+    "id": "q26",
+    "query": "Tốc độ học Learning Rate alpha quá lớn hoặc quá nhỏ",
+    "gt_start": 289.0,
+    "gt_end": 318.0,
+    "topic": "Learning Rate Alpha"
+  },
+  {
+    "id": "q27",
+    "query": "Các thuật toán tối ưu nâng cao như Adam, RMSprop, SGD",
+    "gt_start": 319.0,
+    "gt_end": 333.0,
+    "topic": "Optimizers Adam RMSprop"
+  },
+  {
+    "id": "q28",
+    "query": "Batch Normalization và Internal Covariate Shift",
+    "gt_start": 334.0,
+    "gt_end": 363.0,
+    "topic": "Batch Normalization"
+  },
+  {
+    "id": "q29",
+    "query": "Quy tắc phân chia tập dữ liệu Train, Validation và Test",
+    "gt_start": 364.0,
+    "gt_end": 378.0,
+    "topic": "Dataset Split"
+  },
+  {
+    "id": "q30",
+    "query": "Hiện tượng Data Leakage rò rỉ dữ liệu là gì?",
+    "gt_start": 379.0,
+    "gt_end": 393.0,
+    "topic": "Data Leakage"
+  }
+]

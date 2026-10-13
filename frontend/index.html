@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LectureLens — Video Search Assistant</title>
+    <!-- Favicon & Mobile Touch Icons -->
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+    <link rel="manifest" href="/static/site.webmanifest">
+    <meta name="theme-color" content="#0b0f19">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500;600&family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="/static/style.css?v=6">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- 1. Header Tối Giản -->
+        <header class="header">
+            <div class="header-brand">
+                <a href="/" class="brand-link" title="LecLens - Video Search Assistant">
+                    <img src="/static/LecLens.png" alt="LecLens" class="brand-logo-img" style="height: 77px; width: auto;">
+                </a>
+            </div>
+            <div class="header-controls">
+                <button id="btn-open-groq-key" class="btn-groq" title="Cấu hình Groq Cloud Whisper LPU (300x siêu tốc)">
+                    <img src="/static/Groq.png" alt="Groq" class="groq-logo-img">
+                    <span id="header-groq-badge" class="header-groq-badge">● Đang kiểm tra...</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- 2. Khung Video Player & Center Dropzone Hub -->
+        <section class="video-section">
+            <div class="video-wrapper" id="video-wrapper">
+                <!-- Dropzone Hub ngay giữa khung hình (Hiển thị khi chưa có video hoặc khi bấm Đổi Video) -->
+                <div id="dropzone-stage" class="dropzone-stage">
+                    <div class="dropzone-card" id="dropzone-card">
+                        <div class="drop-icon-circle">
+                            <span class="material-symbols-outlined drop-hero-icon">cloud_upload</span>
+                        </div>
+                        <h3 class="drop-title">Kéo thả video bài giảng vào đây</h3>
+                        <p class="drop-sub">Hỗ trợ file video <strong>.mp4, .webm</strong> (Nhận diện siêu tốc với Groq Whisper)</p>
+                        
+                        <div class="drop-actions">
+                            <button type="button" id="btn-browse-video" class="btn-drop-action">
+                                <span class="material-symbols-outlined">folder_open</span>
+                                <span>Chọn File Từ Máy Tính</span>
+                            </button>
+                            <input type="file" id="drop-file-input" accept=".mp4,.webm" style="display:none;">
+                        </div>
+
+                        <div class="drop-divider">
+                            <span>HOẶC DÁN LIÊN KẾT YOUTUBE</span>
+                        </div>
+
+                        <div class="drop-yt-box">
+                            <span class="material-symbols-outlined yt-prefix-icon">link</span>
+                            <input type="text" id="drop-youtube-input" placeholder="https://www.youtube.com/watch?v=...">
+                            <button type="button" id="btn-drop-youtube-submit" class="btn-drop-yt-submit" title="Tải Video YouTube">
+                                <span class="material-symbols-outlined">arrow_forward</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Native Video Player (Hiển thị khi có video) -->
+                <video id="native-video" class="native-video" controls playsinline style="display:none;"></video>
+
+                <!-- Nút Đổi Video nổi ở góc trên khi đang phát video -->
+                <button type="button" id="btn-change-video" class="btn-change-video" style="display:none;" title="Tải lên hoặc chọn video khác">
+                    <span class="material-symbols-outlined">sync</span>
+                    <span>Đổi Video</span>
+                </button>
+
+                <!-- Stage Loading Overlay khi đang trích xuất video -->
+                <div id="stage-loading-overlay" class="stage-loading-overlay" style="display:none;">
+                    <div class="spinner-large"></div>
+                    <h4 id="stage-loading-title">Đang xử lý bài giảng...</h4>
+                    <p id="stage-loading-sub">Trích xuất giọng nói bằng Groq Cloud Whisper (5s) & phân tích slide OCR</p>
+                </div>
+            </div>
+
+            <!-- Thanh Timeline & Điều Khiển Phát -->
+            <div class="player-controls">
+                <button id="btn-play-pause" class="btn-play" title="Phát / Tạm dừng">
+                    <span class="material-symbols-outlined">play_arrow</span>
+                </button>
+                <div class="timeline-bar" id="timeline-track">
+                    <div class="timeline-progress" id="timeline-progress"></div>
+                    <div id="timeline-markers" class="timeline-markers"></div>
+                    <div class="timeline-scrubber" id="timeline-scrubber"></div>
+                </div>
+                <span id="time-display" class="time-display">00:00 / 07:05</span>
+            </div>
+        </section>
+
+        <!-- 3. Khung Nhập Câu Hỏi (Placeholder 2) -->
+        <section class="query-section">
+            <div class="query-bar">
+                <input type="text" id="query-input" placeholder="Nhập câu hỏi tìm đoạn bài giảng... (ví dụ: Cơ chế Self-Attention hoạt động như thế nào?)" autofocus>
+                <button id="btn-search" class="btn-search" title="Tìm Kiếm">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- 4. Hiển Thị Kết Quả Bên Dưới (Results Section) -->
+        <section class="results-section">
+            <div id="results-loading" class="results-loading" style="display:none;">
+                <div class="spinner"></div>
+                <span id="loading-status-text">Đang phân tích và tìm đoạn video...</span>
+            </div>
+
+            <div id="results-container" class="results-container">
+                <!-- Nội dung kết quả sẽ render ở đây -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal Cấu Hình Groq API Key -->
+    <div id="groq-modal" class="modal" style="display:none;">
+        <div class="modal-box">
+            <div class="modal-header">
+                <div style="display: flex; align-items: center; gap: 8px;">
+                    <img src="/static/Groq.png" alt="Groq" style="height: 22px; width: auto;">
+                    <h3 style="font-size: 1.05rem; font-weight: 600;">Cấu Hình Groq Cloud ASR</h3>
+                </div>
+                <button id="btn-close-groq" class="btn-close" aria-label="Đóng">
+                    <span class="material-symbols-outlined">close</span>
+                </button>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 14px; margin-top: 10px;">
+                <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; background: rgba(255, 255, 255, 0.04); border-radius: 12px; border: 1px solid var(--border-color);">
+                    <span style="font-size: 0.88rem; color: var(--text-muted);">Trạng thái hiện tại:</span>
+                    <span id="groq-modal-status-badge" style="font-size: 0.78rem; font-weight: 600; padding: 3px 10px; border-radius: 14px; background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid #10b981;">
+                        Đang kiểm tra...
+                    </span>
+                </div>
+
+                <div class="form-group">
+                    <label>Groq API Key:</label>
+                    <input type="password" id="input-modal-groq-key" placeholder="Dán Groq API Key của bạn">
+                </div>
+
+                <div style="font-size: 0.78rem; color: var(--text-muted);">
+                    * Lấy API key miễn phí tại <a href="https://console.groq.com/keys" target="_blank" style="color: var(--primary-cyan); text-decoration: underline;">console.groq.com/keys</a>.
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" id="btn-cancel-groq" class="btn-secondary">Đóng</button>
+                    <button type="button" id="btn-save-modal-groq-key" class="btn-modal-save">Lưu & Kích Hoạt</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js?v=6"></script>
+</body>
+</html>

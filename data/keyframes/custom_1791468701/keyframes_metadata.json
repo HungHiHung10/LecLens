@@ -1,0 +1,212 @@
+[
+  {
+    "keyframe_id": "custom_1791468701_kf_0",
+    "timestamp": 5.0,
+    "timestamp_str": "00:05",
+    "image_filename": "slide_000_5s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_000_5s.jpg",
+    "slide_title": "Slide 1 (00:05)",
+    "ocr_text": "THANHNIEN",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_1",
+    "timestamp": 30.0,
+    "timestamp_str": "00:30",
+    "image_filename": "slide_001_30s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_001_30s.jpg",
+    "slide_title": "Slide 2 (00:30)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_2",
+    "timestamp": 55.0,
+    "timestamp_str": "00:55",
+    "image_filename": "slide_002_55s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_002_55s.jpg",
+    "slide_title": "Slide 3 (00:55)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_3",
+    "timestamp": 80.0,
+    "timestamp_str": "01:20",
+    "image_filename": "slide_003_80s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_003_80s.jpg",
+    "slide_title": "Slide 4 (01:20)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_4",
+    "timestamp": 105.0,
+    "timestamp_str": "01:45",
+    "image_filename": "slide_004_105s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_004_105s.jpg",
+    "slide_title": "Kỹ năng chọn đúng biểu đồ",
+    "ocr_text": "THANHNIEN | CHUYENDE | KI NANGTRONGMONDIALI | KYNANGCHONDUNGBIEUDO | Nam dangbieudocoban:Cot,Duong,Tron,Mien,Kethop(cot+duong） | Yeu caucoban: | Khivephai dambao:Dung-Du-Dep(3D) | Khi chonbieu do thich hop:chon dung-theotukhoa/mocthoigian | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | TruongTHPTchuyenTranDaiNghia,TP.HCM | CACKYNANGTRONGMONDIALY",
+    "ocr_keywords": "Kỹ năng chọn đúng biểu đồ, Dạng biểu đồ cơ bản, Biểu đồ cột, Biểu đồ đường, Biểu đồ tròn, Biểu đồ miền, Biểu đồ kết hợp, Đúng - Đủ - Đẹp"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_5",
+    "timestamp": 155.0,
+    "timestamp_str": "02:35",
+    "image_filename": "slide_005_155s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_005_155s.jpg",
+    "slide_title": "Bảng ghi nhớ về các dạng biểu đồ",
+    "ocr_text": "THANHNIEN | CHUYENDE | KINANGTRONGMONDIALI | Bang1 | BANGGHINHOVEBIEUDO | TUKHOA | SONAM/DOI TUONG | VEBIEUDO | TRON-SGKtrang93,113 | 1-3nam | 1.Co cau hay ti trong | Atlattrang21,22,25 | MIEN-SGKtrang82,138 | >3nam | Atlattrang15,17 | 2.Tang truong hayphat trien | >3nam | DUONG-SGKtrang8,10,138 | haybiendong | 3.Khongconam tupkhoa tren | Tup1-20nam | COT-SGKtrang111 | （S6luong，gia tri,tinhhinh,...) | Atlattrang15,20,21 | 4.Tupkhoa dai:Tocdo tang | >3nam | DUONGvoinamdau=100% | truonghoacchiso tangtruong | SGKtrang98-bai23 | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | TruongTHPT chuyenTran DaiNghiaTPHCM | CACKYNANGTRONGMONDIALY",
+    "ocr_keywords": "Bảng ghi nhớ về biểu đồ, Từ khóa nhận biết, Biểu đồ tròn, Cơ cấu, Tỉ trọng, Biểu đồ miền, Biểu đồ cột, Tốc độ tăng trưởng"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_6",
+    "timestamp": 230.0,
+    "timestamp_str": "03:50",
+    "image_filename": "slide_006_230s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_006_230s.jpg",
+    "slide_title": "Biểu đồ tròn: Thể hiện “cơ cấu” hoặc “tỉ trọng” (1-3 mốc năm)",
+    "ocr_text": "THANHNIEN | CHUYENDE | KI NANGTRONGMON DIALI | KYNANGCHONDUNGBIEUDO | Bieud6TRON:Thehien“cocau”hoac“Titrong”;1-3mocnam | COCAUGIATRISANXUATCONGNGHIEP | TITRONGGIATRISANXUAT | CUACANUOCPHANTHEOTHANHPHANKINHTE | CUACONGNGHIEPCHEBIENLUONGTHUC, | (gia thuc te;don vi:%) | THUCPHAMSOVOITOANNGANHCONGNGHIEP | Nam2007 | (gia so sanh;don vi:%) | Nam2000 | 23,7 | 20,0 | 23,5 | 41,3 | 342 | 44,6 | 76,3 | 75,1 | 76,5 | 24,5 | 35,4 | 2000 | 2007 | Khu vuc Nhanudc | Khu vuc ngoai Nha nudc | Congnghiep chebien ludng thuc,thucpham | Khu vuccovon dau turnuac ngoal | Cacnganh cong nghiep khac | Bieu doTron-Atlat Trang21 | Bieu doTron-Atlat Trang22 | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | Truong THPT chuyen TranDai Nghia,TP.HCM | CACKYNANGTRONGMONDIALY",
+    "ocr_keywords": "Biểu đồ tròn, Thể hiện cơ cấu, Tỉ trọng, Mốc năm, Giá trị sản xuất, Công nghiệp chế biến, Ngoại tệ"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_7",
+    "timestamp": 730.0,
+    "timestamp_str": "12:10",
+    "image_filename": "slide_007_730s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_007_730s.jpg",
+    "slide_title": "Kỹ năng nhận xét bảng số liệu & biểu đồ",
+    "ocr_text": "THANHNIEN | CHUYENDE | KI NANGTRONGMON DIALI | II | KYNANGNHANXETBANGSOLIEU,BIEUDO | NhanXetBANGSOLIEU/BIEUDO-TU2NAM: | COCAU GIATRISANXUATCUA | NONG,LAM,THUYSANCUANUOCTA(DONVI:%) | Huong dan: | Cocaugiatrisanxuatcuanong,lam， | thuysancuanuroctacothaydoi. | 22.6 | Ti trong nganhnong nghiep giam， | 16.2 | giam4,6%. | 4.7 | Ti trong nganh lam nghiep giam， | 2.9 | giam1,8%. | Ti trong nganh thuy san tang,tang | 79.1 | 74.5 | 6,4%. | Nam2002va2014,ti trong nganh | nong nghiep cao nhat,ti trong thuy | sancaonhi. | Cocaugia tri sanxuatcoxuhurong | NAM2002 | NAM2014 | giam ti trongnganh nong nghiep,lam | Nong nghiep | Lam nghiep | Thuy san | nghiep,tang ti trongnganh thuysan. | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | TruongTHPT chuyenTranDaiNghiaTPHCM | CACKYNANGTRONGMONDIALY",
+    "ocr_keywords": "Nhận xét bảng số liệu, Biểu đồ từ 2 năm, Cơ cấu giá trị sản xuất, Nông nghiệp, Lâm nghiệp, Thủy sản"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_8",
+    "timestamp": 955.0,
+    "timestamp_str": "15:55",
+    "image_filename": "slide_008_955s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_008_955s.jpg",
+    "slide_title": "Tính toán & Giải thích số liệu: Năng suất lúa",
+    "ocr_text": "THANHNIEN | CHUYENDE | KINANGTRONGMONDIALi | II | KYNANGNHANXETBANGSOLIEU,BIEUDO | Giaithich-tinh toanlienquan: | MOTSOTIEUCHIVESANXUATLUACUANUOCTAQUACACNAM | Nam | 1980 | 1990 | 2000 | 2010 | 2017 | Dien tich (nghin ha) | 5600 | 6043 | 7666 | 7489 | 7705,2 | San luong (trieu tan) | 11,6 | 19,2 | 32,5 | 40,0 | 42,7 | Nang suat (ta/ha) | 20,7 | 31,8 | 42,9 | 53,4 | 55,4 | Huong dan tinh: | Tinh nang suat(ta/ha）=San lurong/Dien tich（luu y abi ve don vi chuan de tinh) | Vi du:Nang suat1980=116000000 ta/5600000 ha=20,7 ta/ha | Huong dannhan xet: | Dientichgieotrongluatangkhonglientuc,tang2105,2nghinha,tang138an | Sanlurongluatang lientuc,tang31,1trieutan,tang3,7lan | Nangsuatlua tanglientuc,tang34,7ta/ha,tang2,7lan | Sosanh:sanluong tangnhanhnhat,ke denlanang suat,cuoi cung la dientich. | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | Truong THPT chuyenTran DaiNghia,TP.HCM | CACKYNANGTRONGMONDIALY",
+    "ocr_keywords": "Tính năng suất, Sản lượng lúa, Diện tích gieo trồng, Tạ trên hecta, Đơn vị chuẩn, Tăng liên tục, Tốc độ tăng trưởng"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_9",
+    "timestamp": 1080.0,
+    "timestamp_str": "18:00",
+    "image_filename": "slide_009_1080s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_009_1080s.jpg",
+    "slide_title": "Slide 10 (18:00)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_10",
+    "timestamp": 1105.0,
+    "timestamp_str": "18:25",
+    "image_filename": "slide_010_1105s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_010_1105s.jpg",
+    "slide_title": "Slide 11 (18:25)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_11",
+    "timestamp": 1130.0,
+    "timestamp_str": "18:50",
+    "image_filename": "slide_011_1130s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_011_1130s.jpg",
+    "slide_title": "Slide 12 (18:50)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_12",
+    "timestamp": 1155.0,
+    "timestamp_str": "19:15",
+    "image_filename": "slide_012_1155s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_012_1155s.jpg",
+    "slide_title": "Kỹ năng đọc Atlat Địa lí Việt Nam",
+    "ocr_text": "THANHNIEN | DIA LI VIETNAM | CHUVENDE1O-PHAN1I | KY NANG DOCATLAT DIA LIVIET NAM | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | TruongTHPT chuyenTranDaiNghia,TP.HCM | CACKYNANGTRONGMONDIALY",
+    "ocr_keywords": "Kỹ năng đọc Atlat, Địa lí Việt Nam, Chuyên đề 10, Khai thác bản đồ, Phương pháp ôn thi"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_13",
+    "timestamp": 1180.0,
+    "timestamp_str": "19:40",
+    "image_filename": "slide_013_1180s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_013_1180s.jpg",
+    "slide_title": "Lưu ý quan trọng khi đọc Atlat Địa lí Việt Nam",
+    "ocr_text": "THANHNIEN | CHUYENDE | KINANGTRONGMONDIALI | LUUYQUANTRONGKHIDOCATLATDIALIVIETNAM | VKi nang Atlat chiem ti | trongkha caotrong bai | thi THPT. | Murcdoyeucaunhan | biet chu yeu,nhung neu | khongren luyenvanco | the sai hoac mat thoi | giankhi lambai. | Bosungnhieukien thurc | bai hoc,giup them | thong tinkhi hocDja li. | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | TruongTHPT chuyenTran DaiNghiaTP.HCM | CACKYNANG TRONGMONDIALY",
+    "ocr_keywords": "Lưu ý khi đọc Atlat, Tỉ trọng điểm thi THPT, Mức độ nhận biết, Kỹ năng làm bài, Kiến thức bổ trợ"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_14",
+    "timestamp": 1505.0,
+    "timestamp_str": "25:05",
+    "image_filename": "slide_014_1505s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_014_1505s.jpg",
+    "slide_title": "Hướng dẫn đọc Atlat Địa lí Việt Nam: Khoáng sản",
+    "ocr_text": "THANHNIEN | CHUYENDE | KINANGTRONGMONDIALI | II | HUONGDANDOCATLATDIALIVIETNAM | Khoangsan[8] | Noi | dung | DocAtiatcoban | -Dacdiem:Phan b6khong deu-phongphuvadadang-mot soloaico tro | luronglon. | -Gom3nhom:nang luong.kim loai.phi kim. | Phan | Modau:HongNgoc,Rang Dong,Bach Ho,Rong,Dai Hung va Cai Nuc. | bo | Mokhi:Tien Hai,Lan Tay.Lan Do | san. | Giang),TranYen(Yen Bai),QuangNgai | -Than:Quang Ninh,Thai Nguyen,Son La,Hoa Binh,Nong Son(Quang | Nam).. | Dong:Son Dong(BacGiang).Yen Chau(Son La).Sinh Quyen (Lao Cai). | Cacbe | tram | -Tram tichvinhBacBo（mokhi) | tich | -Tram tich Curu Long,Nam Con Son（mo dau,mokhi) | Vung | Vung TDMN BacBogiau cokhoang san nhat（than,sat,dong.chi -kem, | giau | apatit...) | khoang | -Vung BacTrung Bo（sat,crom,titan,da quy.davoi...) | san | -VungDong NamB（dau movakhi dot,daaxit,setva cao lanh) | Ving Duyen haiNam Trung B（vang.than,da axit) | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | TruongTHPT chuyenTranDaiNghiaTPHCM | CACKYNANGTRONGMONDIALY",
+    "ocr_keywords": "Khoáng sản Việt Nam, Năng lượng, Kim loại, Phi kim, Mỏ dầu, Mỏ khí, Mỏ than, Đồng"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_15",
+    "timestamp": 1755.0,
+    "timestamp_str": "29:15",
+    "image_filename": "slide_015_1755s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_015_1755s.jpg",
+    "slide_title": "Hướng dẫn đọc Atlat Địa lí Việt Nam: Các miền tự nhiên",
+    "ocr_text": "THANHNIEN | CHUYENDE | KI NANGTRONGMON DIALI | II | HUONGDANDOCATLATDIALIVIETNAM | Cacmien tynhien[13-14] | Vi dy docvungnui DongBac: | 1.Namophiadong thung lung song Hong（hay | ta ngan song Hong). | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | TruongTHPT chuyenTranDaiNghiaTP.HCM | CACKYNANG TRONGMONDIALY",
+    "ocr_keywords": "Các miền tự nhiên, Vùng núi Đông Bắc, Thung lũng sông Hồng, Tả ngạn sông Hồng, Địa hình núi, Đặc điểm tự nhiên"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_16",
+    "timestamp": 2580.0,
+    "timestamp_str": "43:00",
+    "image_filename": "slide_016_2580s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_016_2580s.jpg",
+    "slide_title": "Hướng dẫn đọc Atlat Địa lí Việt Nam: Vùng kinh tế",
+    "ocr_text": "THANHNIEN | CHUYENDE | KINANGTRONGMONDIALI | II | HUONGDANDOCATLATDI | Vungkinh te[26,27，28,29] | Vi du:Trung du vamien nui BacBo | Khi doctrangvung,cankethop | Hosong Da | Mo Than da(Quang Ninh) | cactrangkhaccolien quan de | giai thich,phan tich | Moilien he: | Moi lienhe: | MoThanCong | Than Jhen N rle Minhd | Dja hinh doinui | nghiepkhai thac | Duong-Sng dln N | cao+songlon, | thanCong | lupulurongnuroc | nghiep nhiet | OIAAAYDICN | lonCong | dien,luyenkim | nghiep thuy dien | ThuydienSongDa | CN khai thac Than | CNnhiet dien Cam Pha,Uong Bi | ThayTRANNGOCANH | CHUONGTRINHONTHITHPT2024:MONDIALY:CD10 | TruongTHPTchuyenTranDai Nghia,TP.HCM | CACKYNANGTRONGMONDIALY",
+    "ocr_keywords": "Vùng kinh tế, Trung du và miền núi Bắc Bộ, Thủy điện Sông Đà, Khai thác than, Nhiệt điện Cẩm Phả, Uông Bí"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_17",
+    "timestamp": 2655.0,
+    "timestamp_str": "44:15",
+    "image_filename": "slide_017_2655s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_017_2655s.jpg",
+    "slide_title": "Slide 18 (44:15)",
+    "ocr_text": "THANHNIEN",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_18",
+    "timestamp": 2680.0,
+    "timestamp_str": "44:40",
+    "image_filename": "slide_018_2680s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_018_2680s.jpg",
+    "slide_title": "Slide 19 (44:40)",
+    "ocr_text": "1U",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_19",
+    "timestamp": 2705.0,
+    "timestamp_str": "45:05",
+    "image_filename": "slide_019_2705s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_019_2705s.jpg",
+    "slide_title": "Slide 20 (45:05)",
+    "ocr_text": "Shine | urWa | izons.New Path.",
+    "ocr_keywords": "Izons.new, Path."
+  },
+  {
+    "keyframe_id": "custom_1791468701_kf_20",
+    "timestamp": 2730.0,
+    "timestamp_str": "45:30",
+    "image_filename": "slide_020_2730s.jpg",
+    "image_url": "/keyframes/custom_1791468701/slide_020_2730s.jpg",
+    "slide_title": "Slide 21 (45:30)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  }
+]

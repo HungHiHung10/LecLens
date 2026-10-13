@@ -1,0 +1,332 @@
+[
+  {
+    "keyframe_id": "custom_1791450463_kf_0",
+    "timestamp": 5.0,
+    "timestamp_str": "00:05",
+    "image_filename": "slide_000_5s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_000_5s.jpg",
+    "slide_title": "Slide 1 (00:05)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_1",
+    "timestamp": 80.0,
+    "timestamp_str": "01:20",
+    "image_filename": "slide_001_80s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_001_80s.jpg",
+    "slide_title": "Predicting",
+    "ocr_text": "Predicting | dep | Encoderoutput | head | Encoder | Decoder | block | block | Encoder | Decoder | Decoder | Encoder | block | block | Encoder | Decoder | block | block | Position | Token | Token | embedding | embedding | embedding | Position | cecoo | oooo | ooooo | embedding | 0oooo | Input | Output | Youareabeautifulgirl | SosBanlamotcogai | sequence | sequence",
+    "ocr_keywords": "Predicting, Dep, Encoderoutput, Head, Encoder, Decoder, Block, Position, Token, Embedding"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_2",
+    "timestamp": 105.0,
+    "timestamp_str": "01:45",
+    "image_filename": "slide_002_105s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_002_105s.jpg",
+    "slide_title": "Behold,awildpi creature,",
+    "ocr_text": "Behold,awildpi creature, | foraginginitsnative | land | 22% | forest | 9% | country | 5% | Text | habitat | 4% | forests | 4% | generation | Transformer | soil | 4% | territory | 2% | woods | 2% | lands | 1% | waters | 1% | woodland | 1% | grass | |1%",
+    "ocr_keywords": "Behold,awildpi, Creature, Foraginginitsnative, Land, 22%, Forest, Country, Text, Habitat, Forests"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_3",
+    "timestamp": 155.0,
+    "timestamp_str": "02:35",
+    "image_filename": "slide_003_155s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_003_155s.jpg",
+    "slide_title": "Large",
+    "ocr_text": "Large | Language Models （LLMs), such as GPT-3 and GPT-4,util | izea | process called tokenization. Tokenization involves br | eaking down text into smaller units, known as tokens, which | the model can process and understand. These tokens | canrang | e from individual characters to entirewords or even larger | chunks, depending on the model.For GPT-3 and GPT-4,a Byte | Pair Encoding （BPE) tokenizer is used. BPE is a subword tok | enization technique that allows the model todynamically bu | ild a vocabulary during training,efficiently | /representing | common words and word fragments. Although the core tokeniza | tion process | remainssimilar acrossdifferentversionsoft | hese models, | the specific implementation can vary basedon | the model's architecture and training objectives.",
+    "ocr_keywords": "Large, Language, Models, （llms, Such, Gpt-3, Gpt-4,util, Izea, Process, Called"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_4",
+    "timestamp": 180.0,
+    "timestamp_str": "03:00",
+    "image_filename": "slide_004_180s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_004_180s.jpg",
+    "slide_title": "Tokens",
+    "ocr_text": "Tokens | To date, the cleverest thinker of all time | was | ？？?",
+    "ocr_keywords": "Tokens, Date, Cleverest, Thinker, All, Time, Was, ？？?"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_5",
+    "timestamp": 230.0,
+    "timestamp_str": "03:50",
+    "image_filename": "slide_005_230s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_005_230s.jpg",
+    "slide_title": "Predicting",
+    "ocr_text": "Predicting | dep | Encoderoutput | head | Encoder | Decoder | block | block | Encoder | Decoder | Encoder | Decoder | block | block | Encoder | Decoder | block | block | Position | Token | Token | embedding | embedding | embedding | oooo | Position | ooooo | embedding | ooooo | Input | Output | Youareabeautifulgirl | SosBanlamotcogai | sequence | sequence",
+    "ocr_keywords": "Predicting, Dep, Encoderoutput, Head, Encoder, Decoder, Block, Position, Token, Embedding"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_6",
+    "timestamp": 330.0,
+    "timestamp_str": "05:30",
+    "image_filename": "slide_006_330s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_006_330s.jpg",
+    "slide_title": "model",
+    "ocr_text": "model | Encodebothsemantic | You | andpositional | information | are | You | Token | are | embedding | beautiful | Add | girl | beautiful | dmodel | girl | Position | *NeubanquantamdencackhoahocveAl,cacbanc6thetuadendoan00:35:53",
+    "ocr_keywords": "Model, Encodebothsemantic, You, Andpositional, Information, Are, Token, Embedding, Beautiful, Add"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_7",
+    "timestamp": 430.0,
+    "timestamp_str": "07:10",
+    "image_filename": "slide_007_430s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_007_430s.jpg",
+    "slide_title": "Predicting",
+    "ocr_text": "Predicting | dep | Encoderoutput | head | Encoder | Decoder | block | block | Encoder | Decoder | Encoder | Decoder | block | block | Encoder | Decoder | block | block | Position | Token | Token | embedding | embedding | embedding | Position | 88880 | emheddin | cooco | Input | Output | Youareabeautifulgirl | sosBanlamotcogai | sequence | sequence",
+    "ocr_keywords": "Predicting, Dep, Encoderoutput, Head, Encoder, Decoder, Block, Position, Token, Embedding"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_8",
+    "timestamp": 455.0,
+    "timestamp_str": "07:35",
+    "image_filename": "slide_008_455s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_008_455s.jpg",
+    "slide_title": "You are a beautiful girl",
+    "ocr_text": "You are a beautiful girl",
+    "ocr_keywords": "You, Are, Beautiful, Girl"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_9",
+    "timestamp": 530.0,
+    "timestamp_str": "08:50",
+    "image_filename": "slide_009_530s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_009_530s.jpg",
+    "slide_title": "Cotinhtunao",
+    "ocr_text": "Cotinhtunao | bonghia cho toi | khong ? | You are a beautiful | girl | Toikhong! | Toi bonghia | choban.Toi | day",
+    "ocr_keywords": "Cotinhtunao, Bonghia, Cho, Toi, Khong, You, Are, Beautiful, Girl, Toikhong!"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_10",
+    "timestamp": 555.0,
+    "timestamp_str": "09:15",
+    "image_filename": "slide_010_555s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_010_555s.jpg",
+    "slide_title": "Keys",
+    "ocr_text": "Keys | 512 | You | YM | Queries | are | OM | beautiful | girl",
+    "ocr_keywords": "Keys, 512, You, Queries, Are, Beautiful, Girl"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_11",
+    "timestamp": 980.0,
+    "timestamp_str": "16:20",
+    "image_filename": "slide_011_980s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_011_980s.jpg",
+    "slide_title": "How are you doing",
+    "ocr_text": "How are you doing",
+    "ocr_keywords": "How, Are, You, Doing"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_12",
+    "timestamp": 1005.0,
+    "timestamp_str": "16:45",
+    "image_filename": "slide_012_1005s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_012_1005s.jpg",
+    "slide_title": "Keys",
+    "ocr_text": "Keys | eeeee | Self-attentions | eeeee | 'How | 60 | Sumsto1 | 'are | 'you' | 'doing | Values | Context | vectors | WeightedaverageoftheValues | Contextvectorfortoken'you'",
+    "ocr_keywords": "Keys, Eeeee, Self-attentions, 'how, Sumsto1, 'are, 'you', 'doing, Values, Context"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_13",
+    "timestamp": 1055.0,
+    "timestamp_str": "17:35",
+    "image_filename": "slide_013_1055s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_013_1055s.jpg",
+    "slide_title": "self-attention",
+    "ocr_text": "self-attention | Keys | Self-attentions | eeeee | eeeee | eeeoe | eooee | You | eeeee | Softmax | yM | ooeoo | are | @eeee | Queries | Values | beautiful | Context | girl | vectors | C=Softmax | QKT | √dmodel",
+    "ocr_keywords": "Self-attention, Keys, Self-attentions, Eeeee, Eeeoe, Eooee, You, Softmax, Ooeoo, Are"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_14",
+    "timestamp": 1130.0,
+    "timestamp_str": "18:50",
+    "image_filename": "slide_014_1130s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_014_1130s.jpg",
+    "slide_title": "Cotinhtunao",
+    "ocr_text": "Cotinhtunao | Co dong tu | bonghia cho toi | dung truoc toi | khong? | khong? | girl | CotuBoynao | Co dau?hay! | gan toi khong ? | sau toi khong?",
+    "ocr_keywords": "Cotinhtunao, Dong, Bonghia, Cho, Toi, Dung, Truoc, Khong?, Girl, Cotuboynao"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_15",
+    "timestamp": 1155.0,
+    "timestamp_str": "19:15",
+    "image_filename": "slide_015_1155s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_015_1155s.jpg",
+    "slide_title": "Slide 16 (19:15)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_16",
+    "timestamp": 1230.0,
+    "timestamp_str": "20:30",
+    "image_filename": "slide_016_1230s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_016_1230s.jpg",
+    "slide_title": "Keys",
+    "ocr_text": "Keys | Self-attentions | dmodel | Hidden | Softmax | Queries | states | WK | dhead | Hidden | dmodel | states | dheadValues | dmodel | dhead | Attentionhead",
+    "ocr_keywords": "Keys, Self-attentions, Dmodel, Hidden, Softmax, Queries, States, Dhead, Dheadvalues, Attentionhead"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_17",
+    "timestamp": 1305.0,
+    "timestamp_str": "21:45",
+    "image_filename": "slide_017_1305s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_017_1305s.jpg",
+    "slide_title": "Attention",
+    "ocr_text": "Attention | Linearlayer | dmodel | head | dmodel | Concatenate | Attention | dmodel | OM | head | Hidden | states | Attention | Combined | head | hidden | Hidden | states | states",
+    "ocr_keywords": "Attention, Linearlayer, Dmodel, Head, Concatenate, Hidden, States, Combined"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_18",
+    "timestamp": 1355.0,
+    "timestamp_str": "22:35",
+    "image_filename": "slide_018_1355s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_018_1355s.jpg",
+    "slide_title": "Encoder",
+    "ocr_text": "Encoder | Embeddings | Encoder | Encoderblock | Encoderblock | Encoderblock | You | output | are | beautiful | girl | 6times | Multi-headattention",
+    "ocr_keywords": "Encoder, Embeddings, Encoderblock, You, Output, Are, Beautiful, Girl, 6times, Multi-headattention"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_19",
+    "timestamp": 1555.0,
+    "timestamp_str": "25:55",
+    "image_filename": "slide_019_1555s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_019_1555s.jpg",
+    "slide_title": "RESNET",
+    "ocr_text": "RESNET | 3x3conv,64 | 3x3conv,128 | 3x3 conv,256 | 3x3conv,512 | 1000-d,fc | PyTorch | Dog",
+    "ocr_keywords": "Resnet, 3x3conv,64, 3x3conv,128, 3x3, Conv,256, 3x3conv,512, 1000-d,fc, Pytorch, Dog"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_20",
+    "timestamp": 1580.0,
+    "timestamp_str": "26:20",
+    "image_filename": "slide_020_1580s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_020_1580s.jpg",
+    "slide_title": "Slide 21 (26:20)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_21",
+    "timestamp": 1605.0,
+    "timestamp_str": "26:45",
+    "image_filename": "slide_021_1605s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_021_1605s.jpg",
+    "slide_title": "Computedoverallvalues",
+    "ocr_text": "Computedoverallvalues | withineachinputsequence | Learnable | parameters | mean | layer-norm(c) | Y+B | variance | 3+ | Smalladditive | constant",
+    "ocr_keywords": "Computedoverallvalues, Withineachinputsequence, Learnable, Parameters, Mean, Layer-norm(c, Y+b, Variance, Smalladditive, Constant"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_22",
+    "timestamp": 1730.0,
+    "timestamp_str": "28:50",
+    "image_filename": "slide_022_1730s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_022_1730s.jpg",
+    "slide_title": "Predicting",
+    "ocr_text": "Predicting | dep | Encoderoutput | head | Encoder | Decoder | block | block | Encoder | Decoder | Encoder | Decoder | block | block | Encoder | Decoder | block | block | Position | Token | Token | embedding | embedding | embedding | Position | ooooo | embedding | coooo | Input | Output | You areabeautifulgirl | sosBanlamotcogai | sequence | sequence",
+    "ocr_keywords": "Predicting, Dep, Encoderoutput, Head, Encoder, Decoder, Block, Position, Token, Embedding"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_23",
+    "timestamp": 1755.0,
+    "timestamp_str": "29:15",
+    "image_filename": "slide_023_1755s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_023_1755s.jpg",
+    "slide_title": "Layer Normalization",
+    "ocr_text": "Layer Normalization | Residual | FeedForward | connection | Encoder's | LayerNormalization | output | Cross-AttentionLayer | LayerNormalization | Residual | AttentionLayer | connection | Decoderblock",
+    "ocr_keywords": "Layer, Normalization, Residual, Feedforward, Connection, Encoder's, Layernormalization, Output, Cross-attentionlayer, Attentionlayer"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_24",
+    "timestamp": 1830.0,
+    "timestamp_str": "30:30",
+    "image_filename": "slide_024_1830s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_024_1830s.jpg",
+    "slide_title": "Encoder",
+    "ocr_text": "Encoder | Keys | output | Alignmentscores | Cross-attentions | Softmax | Queries | yM | ooooo | Decoder | eoeee | eeeee | hiddenstates | eoeee | Values | Context | vectors",
+    "ocr_keywords": "Encoder, Keys, Output, Alignmentscores, Cross-attentions, Softmax, Queries, Ooooo, Decoder, Eoeee"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_25",
+    "timestamp": 1930.0,
+    "timestamp_str": "32:10",
+    "image_filename": "slide_025_1930s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_025_1930s.jpg",
+    "slide_title": "-inf",
+    "ocr_text": "-inf | -inf | -inf | -inf | -inf | -inf | -inf | M= | -inf | -inf | -inf",
+    "ocr_keywords": "Inf"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_26",
+    "timestamp": 1980.0,
+    "timestamp_str": "33:00",
+    "image_filename": "slide_026_1980s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_026_1980s.jpg",
+    "slide_title": "machinetranslation",
+    "ocr_text": "machinetranslation | Attentionisall | Transformer | 注意力就是你所需要的一切 | youneed",
+    "ocr_keywords": "Machinetranslation, Attentionisall, Transformer, 注意力就是你所需要的一切, Youneed"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_27",
+    "timestamp": 2005.0,
+    "timestamp_str": "33:25",
+    "image_filename": "slide_027_2005s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_027_2005s.jpg",
+    "slide_title": "Encoder",
+    "ocr_text": "Encoder | Encoder | You | output | are | beautiful | girl | Ban | mot | cogai | dep | Predicting | Decoderblock | Decoder block | head | Decoder | Ntimes",
+    "ocr_keywords": "Encoder, You, Output, Are, Beautiful, Girl, Ban, Mot, Cogai, Dep"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_28",
+    "timestamp": 2055.0,
+    "timestamp_str": "34:15",
+    "image_filename": "slide_028_2055s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_028_2055s.jpg",
+    "slide_title": "5Training",
+    "ocr_text": "5Training | Thissectiondescribesthetrainingregimeforourmodels | 5.1TrainingDataandBatching | WetrainedonthestandardWMT2014English-Germandatasetconsistingofabout4.5million | sentencepairs.Sentenceswereencodedusingbyte-pairencoding[3],whichhasasharedsource- | targetvocabularyofabout370o0tokens.ForEnglish-French,weusedthesignificantlylargerWMT | 2014English-Frenchdatasetconsistingof36Msentencesandsplittokensintoa32000word-piece | batchcontainedasetofsentencepairscontainingapproximately25000sourcetokensand25000 | targettokens.",
+    "ocr_keywords": "5training, Thissectiondescribesthetrainingregimeforourmodels, 5.1trainingdataandbatching, Wetrainedonthestandardwmt2014english-germandatasetconsistingofabout4.5million, Sentencepairs.sentenceswereencodedusingbyte-pairencoding[3],whichhasasharedsource, Targetvocabularyofabout370o0tokens.forenglish-french,weusedthesignificantlylargerwmt, 2014english-frenchdatasetconsistingof36msentencesandsplittokensintoa32000word-piece, Batchcontainedasetofsentencepairscontainingapproximately25000sourcetokensand25000, Targettokens"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_29",
+    "timestamp": 2155.0,
+    "timestamp_str": "35:55",
+    "image_filename": "slide_029_2155s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_029_2155s.jpg",
+    "slide_title": "Slide 30 (35:55)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_30",
+    "timestamp": 2180.0,
+    "timestamp_str": "36:20",
+    "image_filename": "slide_030_2180s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_030_2180s.jpg",
+    "slide_title": "Slide 31 (36:20)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_31",
+    "timestamp": 2280.0,
+    "timestamp_str": "38:00",
+    "image_filename": "slide_031_2280s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_031_2280s.jpg",
+    "slide_title": "VIETNCUYEN",
+    "ocr_text": "VIETNCUYEN | Senior Alengineer | KHOA HOC | ToanthietyeudanhchoAl&DataScience | http://viet-it.com | 0349942449 | Videokhoahoc | NOIDUNGKHOAHOC | VIETNCUYEN | Senior Alengineer | Xac suat | Thongke | Daisotuyentinh | Giaitich | http://viet-it.com | 0349942449",
+    "ocr_keywords": "Vietncuyen, Senior, Alengineer, Khoa, Hoc, Toanthietyeudanhchoal&datascience, Http://viet-it.com, 0349942449, Videokhoahoc, Noidungkhoahoc"
+  },
+  {
+    "keyframe_id": "custom_1791450463_kf_32",
+    "timestamp": 2305.0,
+    "timestamp_str": "38:25",
+    "image_filename": "slide_032_2305s.jpg",
+    "image_url": "/keyframes/custom_1791450463/slide_032_2305s.jpg",
+    "slide_title": "Slide 33 (38:25)",
+    "ocr_text": "",
+    "ocr_keywords": "Slide Content"
+  }
+]

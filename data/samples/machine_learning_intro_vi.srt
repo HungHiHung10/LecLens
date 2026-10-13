@@ -1,0 +1,119 @@
+1
+00:00:01,000 --> 00:00:08,500
+Chào các bạn, hôm nay chúng ta sẽ bước vào bài giảng trọng tâm về hiện tượng Overfitting và các kỹ thuật chống Overfitting trong Machine Learning.
+
+2
+00:00:09,000 --> 00:00:18,200
+Đầu tiên, câu hỏi cốt lõi là: Tại sao mô hình của chúng ta lại bị overfitting? Overfitting hay còn gọi là quá khớp, xảy ra khi mô hình học quá kỹ dữ liệu huấn luyện.
+
+3
+00:00:19,000 --> 00:00:29,500
+Khi bị overfitting, mô hình ghi nhớ cả những nhiễu (noise) trong tập train, dẫn đến việc độ chính xác trên tập train đạt 99% hay 100%, nhưng khi kiểm tra trên tập test thì kết quả rất tệ.
+
+4
+00:00:30,000 --> 00:00:42,000
+Nguyên nhân chính dẫn đến overfitting là do số lượng tham số của mô hình quá lớn so với lượng dữ liệu huấn luyện, hoặc dữ liệu thu thập không đủ đa dạng và chứa nhiều nhiễu ngoại lai.
+
+5
+00:00:43,000 --> 00:00:55,000
+Ngược lại với overfitting là hiện tượng Underfitting, tức là chưa khớp. Underfitting xảy ra khi mô hình quá đơn giản, ví dụ dùng một đường thẳng tuyến tính để mô tả dữ liệu phi tuyến tính phức tạp.
+
+6
+00:00:56,000 --> 00:01:10,000
+Tiếp theo, chúng ta thảo luận về sự đánh đổi giữa Bias và Variance, tức là độ chệch và phương sai. Một mô hình có High Bias sẽ bị underfitting, còn mô hình có High Variance sẽ bị overfitting.
+
+7
+00:01:11,000 --> 00:01:25,000
+Bây giờ, chúng ta chuyển sang các giải pháp quan trọng nhất để khắc phục overfitting. Giải pháp đầu tiên và kinh điển nhất chính là Regularization, tức là kỹ thuật điều chuẩn.
+
+8
+00:01:26,000 --> 00:01:38,000
+Trong Regularization, chúng ta cộng thêm một lượng phạt vào hàm mất mát loss function. Hai phương pháp phổ biến nhất là L1 Regularization (Lasso) và L2 Regularization (Ridge).
+
+9
+00:01:39,000 --> 00:01:52,000
+L1 Regularization có đặc tính đưa các trọng số không quan trọng về đúng bằng 0, giúp chọn lọc đặc trưng (feature selection) và tạo ra mô hình thưa (sparse model).
+
+10
+00:01:53,000 --> 00:02:07,000
+Trong khi đó, L2 Regularization còn gọi là Weight Decay, phạt theo bình phương độ lớn của trọng số. Nó không triệt tiêu trọng số về 0 mà ép các trọng số phân bổ đều và có giá trị nhỏ.
+
+11
+00:02:08,000 --> 00:02:22,000
+Giải pháp thứ hai cực kỳ phổ biến trong mạng nơ-ron sâu Deep Learning chính là kỹ thuật Dropout. Dropout do nhóm của Geoffrey Hinton đề xuất vào năm 2014.
+
+12
+00:02:23,000 --> 00:02:37,000
+Cách Dropout hoạt động rất thú vị: trong mỗi lượt lan truyền thuận (forward pass) khi huấn luyện, chúng ta ngẫu nhiên tắt đi một tỷ lệ nơ-ron nhất định, thường là xác suất p = 0.5.
+
+13
+00:02:38,000 --> 00:02:51,000
+Việc tắt ngẫu nhiên này ngăn chặn các nơ-ron học phụ thuộc lẫn nhau quá mức (co-adaptation), buộc mỗi nơ-ron phải học các đặc trưng độc lập và mạnh mẽ hơn.
+
+14
+00:02:52,000 --> 00:03:05,000
+Khi chuyển sang chế độ suy luận Inference hoặc Test, chúng ta không tắt nơ-ron nữa mà nhân trọng số với hệ số (1 - p) để giữ nguyên kỳ vọng đầu ra của tầng mạng.
+
+15
+00:03:06,000 --> 00:03:20,000
+Kỹ thuật thứ ba chống overfitting là Early Stopping, tức là dừng huấn luyện sớm. Chúng ta theo dõi hàm mất mát validation loss qua từng epoch.
+
+16
+00:03:21,000 --> 00:03:34,000
+Khi validation loss bắt đầu có xu hướng tăng liên tục trong một số epoch liên tiếp (gọi là patience), hệ thống sẽ tự động ngắt quá trình train và lưu lại checkpoint tốt nhất.
+
+17
+00:03:35,000 --> 00:03:49,000
+Giải pháp thứ tư là Tăng cường dữ liệu (Data Augmentation). Đối với dữ liệu hình ảnh, chúng ta có thể xoay ảnh, lật ảnh, phóng to thu nhỏ, thay đổi độ sáng để tạo thêm dữ liệu mới.
+
+18
+00:03:50,000 --> 00:04:04,000
+Bây giờ chúng ta sẽ bàn về Hàm mất mát (Loss Function) và Tối ưu hóa Gradient Descent. Hàm loss đo lường sai số giữa giá trị dự đoán của mô hình và nhãn thực tế.
+
+19
+00:04:05,000 --> 00:04:18,000
+Với bài toán hồi quy (Regression), hàm mất mát tiêu chuẩn là MSE (Mean Squared Error) và MAE (Mean Absolute Error). MSE nhạy cảm với các điểm dữ liệu dị biệt (outliers).
+
+20
+00:04:19,000 --> 00:04:33,000
+Với bài toán phân loại (Classification), chúng ta dùng hàm Cross-Entropy Loss kết hợp với hàm kích hoạt Softmax hoặc Sigmoid ở tầng cuối cùng.
+
+21
+00:04:34,000 --> 00:04:48,000
+Để tối ưu hóa hàm mất mát, thuật toán cơ bản là Gradient Descent (Hạ độ dốc). Thuật toán tính đạo hàm riêng của hàm mất mát theo từng trọng số để cập nhật thông qua quy tắc lan truyền ngược.
+
+22
+00:04:49,000 --> 00:05:03,000
+Hệ số học (Learning Rate, ký hiệu là alpha) quyết định độ lớn của mỗi bước đi cập nhật. Nếu Learning Rate quá lớn, mô hình sẽ phân kỳ và không thể hội tụ.
+
+23
+00:05:04,000 --> 00:05:18,000
+Ngược lại, nếu Learning Rate quá nhỏ, mô hình sẽ học cực kỳ chậm và dễ bị mắc kẹt tại các điểm cực tiểu cục bộ (local minima) hoặc điểm yên ngựa (saddle points).
+
+24
+00:05:19,000 --> 00:05:33,000
+Các thuật toán tối ưu nâng cao như Adam, RMSprop và SGD with Momentum thường được sử dụng trong thực tế để tự động điều chỉnh tốc độ học phù hợp cho từng tham số.
+
+25
+00:05:34,000 --> 00:05:48,000
+Một kỹ thuật rất quan trọng nữa là Batch Normalization. Kỹ thuật này chuẩn hóa đầu ra của các lớp ẩn về phân phối chuẩn có kỳ vọng 0 và phương sai 1.
+
+26
+00:05:49,000 --> 00:06:03,000
+Batch Normalization giúp giảm hiện tượng Internal Covariate Shift, cho phép chúng ta tăng learning rate lên cao hơn và huấn luyện mô hình sâu nhanh hơn nhiều lần.
+
+27
+00:06:04,000 --> 00:06:18,000
+Về phân chia tập dữ liệu: Quy tắc vàng là luôn chia thành 3 tập riêng biệt: Train Set (để học), Validation Set (để tinh chỉnh siêu tham số), và Test Set (để đánh giá cuối cùng).
+
+28
+00:06:19,000 --> 00:06:33,000
+Một sai lầm rất phổ biến là Data Leakage (Rò rỉ dữ liệu), khi dữ liệu từ tập test vô tình bị đưa vào quá trình chuẩn hóa hoặc huấn luyện mô hình.
+
+29
+00:06:34,000 --> 00:06:48,000
+Chúng ta cũng có kỹ thuật K-Fold Cross Validation để đánh giá độ ổn định của mô hình khi tập dữ liệu có kích thước nhỏ, chia tập dữ liệu thành k phần bằng nhau.
+
+30
+00:06:49,000 --> 00:07:05,000
+Tóm lại bài học hôm nay: Các bạn cần nhớ rõ định nghĩa Overfitting, các kỹ thuật L1/L2 Regularization, cơ chế hoạt động của Dropout, và cách chọn hàm mất mát Loss Function phù hợp.
